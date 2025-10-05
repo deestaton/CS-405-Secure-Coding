@@ -29,12 +29,12 @@ std::string encrypt_decrypt(const std::string& source, const std::string& key)
 
   // loop through the source string char by char
   for (size_t i = 0; i < source_length; ++i)
-  { // TODO: student need to change the next line from output[i] = source[i]
+  { // TODO: change the next line from output[i] = source[i]
     // transform each character based on an xor of the key modded constrained to key length using a mod
     output[i] = source[i];
   }
 
-  // our output length must equal our source length
+  // the output length must equal the source length
   assert(output.length() == source_length);
 
   // return the transformed string
@@ -110,7 +110,6 @@ int main()
 
   std::cout << "Read File: " << file_name << " - Encrypted To: " << encrypted_file_name << " - Decrypted To: " << decrypted_file_name << std::endl;
 
-  // students submit input file, encrypted file, decrypted file, source code file, and key used
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
