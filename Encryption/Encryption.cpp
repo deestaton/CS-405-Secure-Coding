@@ -1,6 +1,7 @@
 // Encryption.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+// TODO: Check project target
 // TODO: Implement a better, more secure algorithm other than XOR
 // TODO: Implement error handling
 // TODO: Update README.md file
